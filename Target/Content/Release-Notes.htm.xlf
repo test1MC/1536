@@ -58,11 +58,11 @@
         phase-name="pretrans"><source>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</source><seg-source><mrk
             mtype="seg"
             mid="1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</mrk></seg-source><target
-          state="needs-translation"><mrk
+          state="translated"><mrk
             mtype="seg"
             mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /></target></trans-unit><trans-unit
+            MadCap:segmentStatus="Accepted"
+            MadCap:matchPercent="0">test</mrk></target></trans-unit><trans-unit
         id="3"
         restype="x-xml-th"
         phase-name="pretrans"><source>Bug</source><seg-source><mrk
@@ -113,8 +113,8 @@
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /><mrk
+            MadCap:segmentStatus="Repetition"
+            MadCap:matchPercent="100">test</mrk><mrk
             mtype="protected"
             mid="2"
             MadCap:segmentStatus="Untranslated"
@@ -169,8 +169,8 @@
           state="needs-translation"><mrk
             mtype="seg"
             mid="1"
-            MadCap:segmentStatus="Untranslated"
-            MadCap:matchPercent="0" /><mrk
+            MadCap:segmentStatus="Repetition"
+            MadCap:matchPercent="100">test</mrk><mrk
             mtype="protected"
             mid="2"
             MadCap:segmentStatus="Untranslated"
